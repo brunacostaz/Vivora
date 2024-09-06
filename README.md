@@ -37,7 +37,7 @@ Para suporte, entre em contato atráves de umm dos emails abaixo:
 - alimoland27@gmail.com
 - brunacstcandeias@gamil.com
 - laurasouzacarvalho82@gmail.com
-- Felipe
+- luizfelipemotta.contato@gmail.com
 - fernandessofia857@gmail.com
 
 
