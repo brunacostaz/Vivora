@@ -5,9 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roupas</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="categorias.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="custom-navbar">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid d-flex justify-content-between align-items-center">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <a class="navbar-brand" href="/index.html">
+              <img src="/img/header-img/Vivora-logo 1.svg" alt="Logo Vivora" class="logo">  
+            </a>
+                <a href="#" class="container__imagem">
+                  </a>
+                 
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="roupas.html">Roupas e Acessórios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="beleza.html">Produtos de Beleza</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="casa.html">Itens para Casa Sustentáveis</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="tecnologia.html">Tecnologia Verde</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/html/contato.html">Contato</a>
+                </li>
+              </ul>
+            </div>
+            <img src="/img/header-img/eco-removebg-preview 1.svg" alt="Carrinho de compras" class="shopping-cart-img">
+    
+          </div>
+        </nav>
+      </header>
     <div class="container">
         <div class="row">
             <!-- Produto 1 -->
@@ -22,7 +59,9 @@
                     <div class="product-footer">
                         <div class="product-price">R$ 159,00</div>
                         <div class="button-container">
-                            <button class="btn">Comprar</button>
+                            <a href="/html/detalhes/bone_azul.html">
+                                <button class="btn">Comprar</button>
+                            </a> 
                         </div>
                     </div>
                 </div>
@@ -43,7 +82,9 @@
                     <div class="product-footer">
                         <div class="product-price">R$ 166,00</div>
                         <div class="button-container">
-                            <button class="btn">Comprar</button>
+                            <a href="/html/detalhes/camiseta_marrom.html">
+                                <button class="btn">Comprar</button>
+                            </a>                        
                         </div>
                     </div>
                 </div>
@@ -64,8 +105,9 @@
                     <div class="product-footer">
                         <div class="product-price">R$ 229,00</div>
                         <div class="button-container">
-                            <button class="btn">Comprar</button>
-                        </div>
+                            <a href="/html/detalhes/camiseta_preta.html">
+                                <button class="btn">Comprar</button>
+                            </a>                         </div>
                     </div>
                 </div>
             </div>
@@ -85,8 +127,9 @@
                     <div class="product-footer">
                         <div class="product-price">R$ 299,00</div>
                         <div class="button-container">
-                            <button class="btn">Comprar</button>
-                        </div>
+                            <a href="/html/detalhes/legging.html">
+                                <button class="btn">Comprar</button>
+                            </a>                         </div>
                     </div>
                 </div>
             </div>
@@ -106,8 +149,9 @@
                     <div class="product-footer">
                         <div class="product-price">R$ 429,00</div>
                         <div class="button-container">
-                            <button class="btn">Comprar</button>
-                        </div>
+                            <a href="/html/detalhes/moletom.html">
+                                <button class="btn">Comprar</button>
+                            </a>                         </div>
                     </div>
                 </div>
             </div>
@@ -127,8 +171,9 @@
                     <div class="product-footer">
                         <div class="product-price">R$ 549,00</div>
                         <div class="button-container">
-                            <button class="btn">Comprar</button>
-                        </div>
+                            <a href="/html/detalhes/saia.html">
+                                <button class="btn">Comprar</button>
+                            </a>                         </div>
                     </div>
                 </div>
             </div>
@@ -148,8 +193,9 @@
                     <div class="product-footer">
                         <div class="product-price">R$ 319,00</div>
                         <div class="button-container">
-                            <button class="btn">Comprar</button>
-                        </div>
+                            <a href="/html/detalhes/shorts.html">
+                                <button class="btn">Comprar</button>
+                            </a>                         </div>
                     </div>
                 </div>
             </div>
@@ -169,14 +215,20 @@
                     <div class="product-footer">
                         <div class="product-price">R$ 219,00</div>
                         <div class="button-container">
-                            <button class="btn">Comprar</button>
-                        </div>
+                            <a href="/html/detalhes/manga_longa.html">
+                                <button class="btn">Comprar</button>
+                            </a>                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
+    <footer class="rodape">
+        <div class="container-footer">
+            <p class="conteudo-rodape">© EcoTrend 2024. Todos os direitos reservados.</p>
+            <p class="conteudo-rodape">Endereço: Rua dos Brizz, 123 - São Paulo, SP Telefone: (11 ) 1234-5678 E-mail: contato@ecotrend.com.br</p>
+            <p class="conteudo-rodape">Siga-nos nas redes sociais: Facebook | Instagram | Twitter</p>        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

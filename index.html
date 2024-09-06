@@ -1,13 +1,471 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ecotrend</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vivora</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-        
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+  <header class="custom-navbar">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid d-flex justify-content-between align-items-center">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <a class="navbar-brand" href="/index.html">
+          <img src="/img/header-img/Vivora-logo 1.svg" alt="Logo Vivora" class="logo">  
+        </a>
+            <a href="#" class="container__imagem">
+              </a>
+             
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/html/roupas.html">Roupas e Acessórios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html/beleza.html">Produtos de Beleza</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html/casa.html">Itens para Casa Sustentáveis</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html/tecnologia.html">Tecnologia Verde</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html/contato.html">Contato</a>
+            </li>
+          </ul>
+        </div>
+        <img src="/img/header-img/eco-removebg-preview 1.svg" alt="Carrinho de compras" class="shopping-cart-img">
+
+      </div>
+    </nav>
+  </header>
+
+  <!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <title>Vivora</title>
+
+    <link rel="stylesheet" href="../style.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+    <!-- Carrossel -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+          class=""
+          aria-current="true"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+          class=""
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            class="w-100 img-fluid d-block d-md-none"
+            src="/img/carrossel/banner1-mobile.png"
+            alt="Mão segurando uma planta em um fundo cinza claro, e logo da empresa Vivora com a seguinte proposta de valor: 'Seja o impacto que você veste: moda ética, beleza natural, vida consciente."
+          />
+
+          <img
+            class="w-100 img-fluid d-none d-md-block d-xl-none"
+            src="/img/carrossel/banner1-tablet.png"
+            alt="Mão segurando uma planta em um fundo cinza claro, e logo da empresa Vivora com a seguinte proposta de valor: 'Seja o impacto que você veste: moda ética, beleza natural, vida consciente."
+          />
+
+          <img
+            class="w-100 img-fluid d-none d-xl-block"
+            src="/img/carrossel/banner1-desktop.png"
+            alt="Mão segurando uma planta em um fundo cinza claro, e logo da empresa Vivora com a seguinte proposta de valor: 'Seja o impacto que você veste: moda ética, beleza natural, vida consciente."
+          />
+        </div>
+        <div class="carousel-item">
+          
+          <img class="w-100 img-fluid d-block d-md-none"
+          src="/img/carrossel/banner2-mobile.png" alt="duas mulheres e dois homens sentados na escada e vestidos com roupas confortáveis de moletons">
+  
+            <img
+            class="w-100 img-fluid d-none d-md-block d-xl-none"
+            src="/img/carrossel/banner2-tablet.png"
+            alt="duas mulheres e dois homens sentados na escada e vestidos com roupas confortáveis de moletons"
+          />
+
+          <img
+            class="w-100 img-fluid d-none d-xl-block"
+            src="/img/carrossel/banner2-desktop.png"
+            alt="duas mulheres e dois homens sentados na escada e vestidos com roupas confortáveis de moletons"
+          />
+
+        </div>
+        <div class="carousel-item">
+          
+          <img class="w-100 img-fluid d-block d-md-none"
+          src="/img/carrossel/banner3-mobile.png" alt="duas fotos da mesma modelo: em uma ela está passando uma máscara de cilios e na outra ela está sorrindo e olhando para cima, com dois dedos apoiados na testa">
+  
+          <img
+          class="w-100 img-fluid d-none d-md-block d-xl-none"
+          src="/img/carrossel/banner3-tablet.png"
+          alt="duas fotos da mesma modelo: em uma ela está passando uma máscara de cilios e na outra ela está sorrindo e olhando para cima, com dois dedos apoiados na testa"
+        />
+
+          <img
+            class="w-100 img-fluid d-none d-xl-block"
+            src="/img/carrossel/banner3-desktop.png"
+            alt="duas fotos da mesma modelo: em uma ela está passando uma máscara de cilios e na outra ela está sorrindo e olhando para cima, com dois dedos apoiados na testa"
+          />
+
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Categorias -->
+
+    <section>
+      <h2 class="text-center my-5">Busque por categorias:</h2>
+      <div class="container">
+        <article class="row mx-auto g-4 mx-5">
+          <div class="col-6 col-md-3">
+            <a href="/html/roupas.html">
+              <div class="card">
+                <img src="/img/roupas/camiseta_marrom.svg" alt="" />
+                <div class="card-header ">
+                  <p class="text-center">Roupas</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-6 col-md-3">
+            <a href="/html/beleza.html">
+              <div class="card ">
+                <img src="/img/produtos-de-beleza/batom.svg" alt="" />
+                <div class="card-header">
+                  <p class="text-center">Beleza</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-6 col-md-3">
+            <a href="/html/casa.html">
+              <div class="card ">
+                <img src="/img/produtos-de-casa/estante_artesanal.svg" alt="" />
+                <div class="card-header">
+                  <p class="text-center">Casa</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-6 col-md-3">
+            <a href="/html/tecnologia.html">
+              <div class="card ">
+                <img src="/img/tecnologia-verde/placa_solar.svg" alt="" />
+                <div class="card-header">
+                  <p class="text-center">Tecnologia Verde</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Preview das roupas -->
+    <section>
+      <h2 class="text-center my-5">Roupas e Acessórios</h2>
+
+      <article class="container mx-auto">
+        <div class="row">
+
+          <div class="col-9 col-md-5 col-xl-3">
+            <div class="card">
+              <img src="/img/roupas/bone_azul 1.svg" class="card-img-top" alt="modelo feminina com boné azul marinho">
+              <div class="card-body">
+                <h5 class="card-title">Camiseta Marrom</h5>
+                <p class="card-text">R$ 166,00</p>
+                <a href="#" class="btn btn-success">Adicionar ao carrinho</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-block d-md-none col-3 ver-mais">
+            <a href="/html/roupas.html">Ver Mais <i class="bi bi-caret-right-fill cor-verde"></i></a>
+          </div>
+
+          <div class="col-md-5 col-xl-3">
+            <div class="d-none d-md-block card">
+              <img src="/img/roupas/camiseta_preta.svg" class="card-img-top" alt="modelo masculino vestindo uma camiseta preta">
+              <div class="card-body">
+                <h5 class="card-title">Camiseta Preta</h5>
+                <p class="card-text">R$ 229,00</p>
+                <a href="#" class="btn btn-success">Adicionar ao carrinho</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-none d-md-block d-xl-none col-2 ver-mais">
+            <a href="/html/roupas.html">Ver Mais <i class="bi bi-caret-right-fill cor-verde"></i></a>
+          </div>
+
+          <div class="col-xl-3">
+            <div class="d-none d-xl-block card">
+              <img src="/img/roupas/saia.svg" class="card-img-top" alt="mulher vestindo uma saia preta com uma blusa marrom">
+              <div class="card-body">
+                <h5 class="card-title">Saia Preta</h5>
+                <p class="card-text">R$ 549,00</p>
+                <a href="#" class="btn btn-success">Adicionar ao carrinho</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-none d-xl-block col-3 ver-mais">
+            <a href="/html/roupas.html">Ver Mais <i class="bi bi-caret-right-fill cor-verde"></i></a>
+          </div>
+
+        </div>
+      </div>
+      </article>
+    </section>
+
+    <!-- Preview dos produtos de beleza -->
+    <section>
+      <h2 class="text-center my-5">Produtos de Beleza</h2>
+
+      <article class="container mx-auto">
+        <div class="row">
+
+          <div class="col-9 col-md-5 col-xl-3">
+            <div class="card">
+              <img src="/img/produtos-de-beleza/sabonete.svg" class="card-img-top" alt="kits de sabonetes artesanais, com uma decoração e embalagens marrons">
+              <div class="card-body">
+                <h5 class="card-title">Sabonetes Artesanais</h5>
+                <p class="card-text">R$ 9,90</p>
+                <a href="#" class="btn btn-success">Adicionar ao carrinho</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-block d-md-none col-3 ver-mais">
+            <a href="/html/beleza.html">Ver Mais <i class="bi bi-caret-right-fill cor-verde"></i></a>
+          </div>
+
+          <div class="col-md-5 col-xl-3">
+            <div class="d-none d-md-block card">
+              <img src="/img/produtos-de-beleza/base.svg" class="card-img-top" alt="base de maquiagem em formato stick">
+              <div class="card-body">
+                <h5 class="card-title">Base Skin Stick</h5>
+                <p class="card-text">R$ 78,90</p>
+                <a href="#" class="btn btn-success">Adicionar ao carrinho</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-none d-md-block d-xl-none col-2 ver-mais">
+            <a href="/html/beleza.html">Ver Mais <i class="bi bi-caret-right-fill cor-verde"></i></a>
+          </div>
+
+          <div class="col-xl-3">
+            <div class="d-none d-xl-block card">
+              <img src="/img/produtos-de-beleza/shampoo.svg" class="card-img-top" alt="shampoo de embalagem branca e com fundo roxo">
+              <div class="card-body">
+                <h5 class="card-title">Shampoo Nuno</h5>
+                <p class="card-text">R$ 84,40</p>
+                <a href="#" class="btn btn-success">Adicionar ao carrinho</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-none d-xl-block col-3 ver-mais">
+            <a href="/html/beleza.html">Ver Mais <i class="bi bi-caret-right-fill cor-verde"></i></a>
+          </div>
+
+        </div>
+      </div>
+      </article>
+    </section>
+
+    <!-- Preview dos produtos de casa -->
+    <section>
+      <h2 class="text-center my-5">Itens para Casa Sustentáveis</h2>
+
+      <article class="container mx-auto">
+        <div class="row">
+
+          <div class="col-9 col-md-5 col-xl-3">
+            <div class="card">
+              <img src="/img/produtos-de-casa/bandeja_palha.svg" class="card-img-top" alt="Bandeja de palha, apoiada em um balcão e com 3 potes, de tamanhos diferentes, em seu interior">
+              <div class="card-body">
+                <h5 class="card-title">Bandeja de Palha</h5>
+                <p class="card-text">R$ 59,90</p>
+                <a href="#" class="btn btn-success">Adicionar ao carrinho</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-block d-md-none col-3 ver-mais">
+            <a href="/html/casa.html">Ver Mais <i class="bi bi-caret-right-fill cor-verde"></i></a>
+          </div>
+
+          <div class="col-md-5 col-xl-3">
+            <div class="d-none d-md-block card">
+              <img src="/img/produtos-de-casa/pratos_bambu.svg" class="card-img-top" alt="kits de pratos marrons de bambu, três pkits na foto">
+              <div class="card-body">
+                <h5 class="card-title">Pratos de Bambu</h5>
+                <p class="card-text">R$ 213,00</p>
+                <a href="#" class="btn btn-success">Adicionar ao carrinho</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-none d-md-block d-xl-none col-2 ver-mais">
+            <a href="/html/casa.html">Ver Mais <i class="bi bi-caret-right-fill cor-verde"></i></a>
+          </div>
+
+          <div class="col-xl-3">
+            <div class="d-none d-xl-block card">
+              <img src="/img/produtos-de-casa/cesta.svg" class="card-img-top" alt="cesta de palha com plantas verdes">
+              <div class="card-body">
+                <h5 class="card-title">Cesta</h5>
+                <p class="card-text">R$ 99,90</p>
+                <a href="#" class="btn btn-success">Adicionar ao carrinho</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-none d-xl-block col-3 ver-mais">
+            <a href="/html/casa.html">Ver Mais <i class="bi bi-caret-right-fill cor-verde"></i></a>
+          </div>
+
+        </div>
+      </div>
+      </article>
+    </section>
+
+    <!-- Preview das tecnologias -->
+    <section class="mb-5 pb-5">
+      <h2 class="text-center my-5">Tecnologia Verde</h2>
+
+      <article class="container mx-auto">
+        <div class="row">
+
+          <div class="col-9 col-md-5 col-xl-3">
+            <div class="card">
+              <img src="/img/tecnologia-verde/filtro_barro.svg" class="card-img-top" alt="Filtro de água feito com barro. Foto de uma cozinha com o filtro ao lado de uma fruteira">
+              <div class="card-body">
+                <h5 class="card-title">Filtro de Barro</h5>
+                <p class="card-text">R$ 449,00</p>
+                <a href="#" class="btn btn-success">Adicionar ao carrinho</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-block d-md-none col-3 ver-mais">
+            <a href="/html/tecnologia.html">Ver Mais <i class="bi bi-caret-right-fill cor-verde"></i></a>
+          </div>
+
+          <div class="col-md-5 col-xl-3">
+            <div class="d-none d-md-block card">
+              <img src="/img/tecnologia-verde/horta.svg" class="card-img-top" alt="mini horta em um vaso verde, e com hortelã, sálvia e alecrim plantados.">
+              <div class="card-body">
+                <h5 class="card-title">Horta</h5>
+                <p class="card-text">R$ 53,50</p>
+                <a href="#" class="btn btn-success">Adicionar ao carrinho</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-none d-md-block d-xl-none col-2 ver-mais">
+            <a href="/html/tecnologia.html">Ver Mais <i class="bi bi-caret-right-fill cor-verde"></i></a>
+          </div>
+
+          <div class="col-xl-3">
+            <div class="d-none d-xl-block card">
+              <img src="/img/tecnologia-verde/carregador_solar.svg" class="card-img-top" alt="Carregador solar para bateria de aparelhos eletrônicos">
+              <div class="card-body">
+                <h5 class="card-title">Carregador por Luz Solar</h5>
+                <p class="card-text">R$ 148,90</p>
+                <a href="#" class="btn btn-success">Adicionar ao carrinho</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-none d-xl-block col-3 ver-mais">
+            <a href="/html/tecnologia.html">Ver Mais <i class="bi bi-caret-right-fill cor-verde"></i></a>
+          </div>
+
+        </div>
+      </div>
+      </article>
+    </section>
+    <footer class="rodape">
+        <div class="container-footer">
+            <p class="conteudo-rodape">© EcoTrend 2024. Todos os direitos reservados.</p>
+            <p class="conteudo-rodape">Endereço: Rua dos Brizz, 123 - São Paulo, SP Telefone: (11 ) 1234-5678 E-mail: contato@ecotrend.com.br</p>
+            <p class="conteudo-rodape">Siga-nos nas redes sociais: Facebook | Instagram | Twitter</p>        </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+
 </html>
